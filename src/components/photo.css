@@ -1,0 +1,24 @@
+.photo-wrapper {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.avatar-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.photo-wrapper p {
+  text-align: center;
+  margin-top: 8px; 
+}

@@ -1,0 +1,60 @@
+.characters-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 10px;
+}
+
+
+.character-row {
+  display: flex;
+  align-items: stretch;
+  border: 2px solid #222;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 10px;
+}
+
+
+.character-box {
+  border-right: 2px solid #222;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.character-box:last-child {
+  border-right: none;
+}
+
+
+.image-box img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+
+.name-box {
+  width: 240px;
+  text-align: center;
+  font-weight: bold;
+  background: #ddd;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+
+.info-box {
+  flex: 1;
+  background: #eee;
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  overflow-wrap: break-word; 
+  word-break: break-word;
+  color: #000;
+}
